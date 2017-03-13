@@ -1,0 +1,19 @@
+{
+  "name": "resitfy-azure",
+  "version": "1.0.0",
+  "description": "Rest starter with azure outh",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Bernt Anker <bernt.anker@gmail.com> (http://bernt-anker.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "mongoose": "^4.8.5",
+    "passport": "^0.3.2",
+    "passport-azure-ad": "^3.0.4",
+    "restify": "^4.3.0"
+  }
+}
